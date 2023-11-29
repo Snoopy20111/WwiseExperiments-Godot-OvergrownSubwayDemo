@@ -35,3 +35,10 @@ Several ground, concrete, metal etc textures from [AmbientCG](https://ambientcg.
 All assets not covered above are available under MIT.
 
 ![Screenshot](screenshots/screenshot4.png)
+
+## Software and Dependencies
+Logan here. This project is being made using the following:
++Godot 4.0.4 (Stable)
++Blender 3.6 LFS
++Wwise 2022.1.6
++The matching Wwise integration from Alessandro Famà.
