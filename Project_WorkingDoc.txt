@@ -1,0 +1,30 @@
+Things I could do:
+	1. Re-implementation
+		a. Start with existing sounds (will not sound excellent but they're placeholder)
+		b. Replace with personal sounds once they're in and playing
+	3. Spatialization
+		a. Start basic with reverbs and reverb spaces
+			-Do we have tools for this with the Wwise integration??
+		b. Attempt things like Portals
+			-Again...do we have these tools??
+		c. Maybe try 
+	5. Physics interactions
+		a. Make chairs collidable and tossable
+		b. Make system where physics impulses play sounds
+		c. Expand system to play sounds based on material and material collided?
+	6. Music
+		a. Respond to which part of the space the player is in, faintly?
+		b. Should be hella atmospheric
+		c. Maybe crack open VCV Rack and see what you can do there, plus classical guitar
+		d. What emotional changes would happen the first time you explore the space?
+			-Transition when leaving the train tunnel
+			-Transition when entering/leaving the hut
+	7. Foley
+		a. Footsteps, for sure
+			-Could you re-use stuff recorded previously? Definitely no Foley pits here.
+		b. Jump/Land?
+		c. Foley for physics interactions, knocking into things and such
+	8. Atmosphere tracks and items
+		a. You hear a bird take off the first time you approach but don't see it
+		b. Little crumbles and creaks
+			-Watch Carson's video on Breaker for ideas

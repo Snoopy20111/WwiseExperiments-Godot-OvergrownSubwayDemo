@@ -15,7 +15,7 @@
 					<ChildrenList>
 						<AudioFileSource Name="UI_Nav_Accept" ID="{1B6EF87B-3762-4E81-8970-CD110AB44769}">
 							<PropertyList>
-								<Property Name="FadeOutDuration" Type="Real64" Value="0.0551415797317437"/>
+								<Property Name="FadeOutDuration" Type="Real64" Value="0.0988153112667469"/>
 								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 								<Property Name="TrimEnd" Type="Real64" Value="0.326378539493294"/>
 							</PropertyList>
@@ -41,6 +41,11 @@
 					</ReferenceList>
 					<ChildrenList>
 						<AudioFileSource Name="UI_Nav_Back" ID="{C332FCB6-E84D-4C76-8792-EE3980864C30}">
+							<PropertyList>
+								<Property Name="FadeOutDuration" Type="Real64" Value="0.248073217726397"/>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimEnd" Type="Real64" Value="0.501926782273603"/>
+							</PropertyList>
 							<Language>SFX</Language>
 							<AudioFile>UI_Nav_Back.wav</AudioFile>
 							<MediaIDList>
@@ -53,6 +58,25 @@
 					</ActiveSourceList>
 				</Sound>
 				<Sound Name="UI_Nav_Move" ID="{48045805-79A2-4B5A-9C83-9FE833FC1AFB}" ShortID="1056599347">
+					<PropertyList>
+						<Property Name="Pitch" Type="int32">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{025D3DC2-E285-47AF-A6B7-D55B9F4023E0}">
+										<PropertyList>
+											<Property Name="Max" Type="Real64" Value="25"/>
+											<Property Name="Min" Type="Real64" Value="-25"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-13</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A53C8BE0-C3D2-443C-BDA1-B049E6148AB7}"/>
@@ -63,6 +87,11 @@
 					</ReferenceList>
 					<ChildrenList>
 						<AudioFileSource Name="UI_Nav_Move" ID="{655A08EB-81F8-41EF-B73B-5F26BD4739DC}">
+							<PropertyList>
+								<Property Name="FadeOutDuration" Type="Real64" Value="0.0247270391779062"/>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimEnd" Type="Real64" Value="0.149004495825305"/>
+							</PropertyList>
 							<Language>SFX</Language>
 							<AudioFile>UI_Nav_Move.wav</AudioFile>
 							<MediaIDList>
