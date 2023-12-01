@@ -9,12 +9,11 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{F52037BB-8670-F240-3E79-CE0DA48055E2}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{5AB0FC13-05E8-3199-0F86-551BE15DECE1}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
 				<AudioDevices>
-					<Plugin Id="2317455096" Name="No_Output" LibName="No Output" LibId="11862023"/>
 					<Plugin Id="3859886410" Name="System" LibName="System" LibId="11403271"/>
 				</AudioDevices>
 			</Plugins>
@@ -211,5 +210,5 @@
 			</Busses>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{4AE5CBB4-1AD4-880F-DFD3-5D384214C97D}</FileHash>
+	<FileHash>{1F29D9FD-4C3B-F1C0-6253-C18E356F8D25}</FileHash>
 </SoundBanksInfo>

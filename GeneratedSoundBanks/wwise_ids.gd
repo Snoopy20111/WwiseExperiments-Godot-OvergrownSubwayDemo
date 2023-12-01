@@ -61,11 +61,9 @@ class AUX_BUSSES:
 class AUDIO_DEVICES:
 
 	const SYSTEM = 3859886410 
-	const NO_OUTPUT = 2317455096 
 
 	const _dict = { 
-	 "System": SYSTEM,
-	 "No_Output": NO_OUTPUT
+	 "System": SYSTEM
 	} 
 
 class EXTERNAL_SOURCES:
