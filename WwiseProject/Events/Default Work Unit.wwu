@@ -1,6 +1,98 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{86D602A2-4D73-4C77-8FEE-20E87C0FF510}" SchemaVersion="110">
 	<Events>
-		<WorkUnit Name="Default Work Unit" ID="{86D602A2-4D73-4C77-8FEE-20E87C0FF510}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{86D602A2-4D73-4C77-8FEE-20E87C0FF510}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="UI" ID="{7295BE92-8A7B-4007-87D7-75866DC2655A}" ShortID="615184128">
+					<ChildrenList>
+						<Event Name="UI_Nav_Accept" ID="{6778A2FD-A46F-48B0-9DE6-404FC2621CC9}">
+							<ChildrenList>
+								<Action Name="" ID="{BA5A13CB-E12C-4474-A482-B72F36919105}" ShortID="683010637">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="UI_Nav_Accept" ID="{1066BDB1-D564-49BC-B5AF-3BF29CA37AA9}" WorkUnitID="{34D6E650-D0A6-4105-8447-1932BDB7A2CA}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="UI_Nav_Back" ID="{37570A65-E990-457F-8EF4-2D346B7CB230}">
+							<ChildrenList>
+								<Action Name="" ID="{9711ED9A-C120-4F8F-BA6B-185DE7AAFFDA}" ShortID="660307782">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="UI_Nav_Back" ID="{9DFA2E37-A3CA-4F33-8FCE-AAA23980179C}" WorkUnitID="{34D6E650-D0A6-4105-8447-1932BDB7A2CA}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="UI_Nav_Move" ID="{0C476655-3B4C-482B-9D4A-F685676188EB}">
+							<ChildrenList>
+								<Action Name="" ID="{D9AC5FBF-D8EB-4C69-870D-A3E584AE6058}" ShortID="642899334">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="UI_Nav_Move" ID="{48045805-79A2-4B5A-9C83-9FE833FC1AFB}" WorkUnitID="{34D6E650-D0A6-4105-8447-1932BDB7A2CA}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="UI_Nav_Tick" ID="{317B3E4A-B3A0-4BCA-A88E-F0D7864CA8A3}">
+							<ChildrenList>
+								<Action Name="" ID="{5898BDB2-9499-4C8B-BA6C-1A7129B77B31}" ShortID="556586401">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="UI_Nav_Slider" ID="{38C8F9E9-6439-4580-8475-00E27D3B0921}" WorkUnitID="{34D6E650-D0A6-4105-8447-1932BDB7A2CA}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="AMB" ID="{902213C0-8F5B-44D3-AC87-F11B47F406CF}" ShortID="735878549">
+					<ChildrenList>
+						<Event Name="AMB_BirdLoop" ID="{B1F6B26C-7555-45E7-A3F6-41F049995191}">
+							<ChildrenList>
+								<Action Name="" ID="{D221D0F2-816B-44D9-A5D3-8AEE2DA3B3BD}" ShortID="501194064">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="AMB_Bird_Loop" ID="{C7179FCF-4D14-4A8D-AE0B-62991F5071F8}" WorkUnitID="{34D6E650-D0A6-4105-8447-1932BDB7A2CA}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="AMB_BarrelFireLoop" ID="{C6E96641-3D92-4319-BDA7-CEFFF96AC6EB}">
+							<ChildrenList>
+								<Action Name="" ID="{0DE637CD-B054-4151-B179-E0FAEBCC5F0A}" ShortID="95933962">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="AMB_Barrel_Fire_Loop" ID="{8669427B-96CE-4EB1-94CF-AD4B956113F8}" WorkUnitID="{34D6E650-D0A6-4105-8447-1932BDB7A2CA}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="MUS" ID="{CED89305-A446-4E5A-8559-1FC369C8860A}" ShortID="405195011">
+					<ChildrenList>
+						<Event Name="MUS_BasicLoop" ID="{1D9A94D1-5BFA-445E-9D7F-1C5954B58EA2}">
+							<ChildrenList>
+								<Action Name="" ID="{C78CF07B-CA6C-4CEA-886A-F7620FA0869B}" ShortID="1053911862">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="MUS_music" ID="{BCCC6092-CD05-4F53-9874-A15464B35745}" WorkUnitID="{F2252951-22FE-424B-8F63-DC7B0371F0C4}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
 	</Events>
 </WwiseDocument>

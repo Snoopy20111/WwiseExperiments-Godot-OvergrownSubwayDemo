@@ -5,11 +5,10 @@
 			<ChildrenList>
 				<SoundBank Name="Master" ID="{79EC8DC3-0C04-477B-AD6E-1B59CA422FA4}">
 					<ObjectInclusionList>
-						<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{40D0373F-DBFC-4805-928B-4FC904A523FC}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="UI_Nav_Slider" ID="{38C8F9E9-6439-4580-8475-00E27D3B0921}" WorkUnitID="{34D6E650-D0A6-4105-8447-1932BDB7A2CA}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="UI_Nav_Accept" ID="{1066BDB1-D564-49BC-B5AF-3BF29CA37AA9}" WorkUnitID="{34D6E650-D0A6-4105-8447-1932BDB7A2CA}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="UI_Nav_Move" ID="{48045805-79A2-4B5A-9C83-9FE833FC1AFB}" WorkUnitID="{34D6E650-D0A6-4105-8447-1932BDB7A2CA}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="UI_Nav_Back" ID="{9DFA2E37-A3CA-4F33-8FCE-AAA23980179C}" WorkUnitID="{34D6E650-D0A6-4105-8447-1932BDB7A2CA}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Default Work Unit" ID="{34D6E650-D0A6-4105-8447-1932BDB7A2CA}" WorkUnitID="{34D6E650-D0A6-4105-8447-1932BDB7A2CA}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Default Work Unit" ID="{F2252951-22FE-424B-8F63-DC7B0371F0C4}" WorkUnitID="{F2252951-22FE-424B-8F63-DC7B0371F0C4}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Default Work Unit" ID="{40D0373F-DBFC-4805-928B-4FC904A523FC}" WorkUnitID="{40D0373F-DBFC-4805-928B-4FC904A523FC}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Default Work Unit" ID="{86D602A2-4D73-4C77-8FEE-20E87C0FF510}" WorkUnitID="{86D602A2-4D73-4C77-8FEE-20E87C0FF510}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

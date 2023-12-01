@@ -1,10 +1,9 @@
-[gd_scene load_steps=23 format=3 uid="uid://c1dih214ogm2k"]
+[gd_scene load_steps=22 format=3 uid="uid://c1dih214ogm2k"]
 
 [ext_resource type="PackedScene" uid="uid://bvcuhiuj4acbu" path="res://props/barrel/barrel.blend" id="1_uj8ef"]
 [ext_resource type="Script" path="res://props/barrel/barrel.gd" id="2_55n3j"]
 [ext_resource type="Texture2D" uid="uid://bmwwajst0wnnq" path="res://props/barrel/textures/fire/Smoke30Frames_0.png" id="2_s3tmb"]
 [ext_resource type="Shader" path="res://props/barrel/heat_wave.gdshader" id="3_763pt"]
-[ext_resource type="AudioStream" uid="uid://gc6uyh8d47iq" path="res://sound/fire_sfx.mp3" id="4_avaux"]
 [ext_resource type="Texture2D" uid="uid://cqccmgb2dd0m5" path="res://subway/particles/flare_01.png" id="4_ux4h6"]
 
 [sub_resource type="Gradient" id="Gradient_atpg3"]
@@ -147,10 +146,13 @@ omni_range = 8.0
 [node name="Timer" type="Timer" parent="." index="5"]
 wait_time = 0.05
 
-[node name="AudioStreamPlayer3D" type="AudioStreamPlayer3D" parent="." index="6"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.2849, 0)
-stream = ExtResource("4_avaux")
-autoplay = true
-bus = &"sfx_reverb"
+[node name="AkEvent3D" type="AkEvent3D" parent="." index="6"]
+event = {
+"id": 2960425256,
+"name": "AMB_BarrelFireLoop"
+}
+trigger_on = 2
+stop_on = 3
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.810068, 0)
 
 [connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]

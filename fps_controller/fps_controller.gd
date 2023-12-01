@@ -4,7 +4,7 @@ extends CharacterBody3D
 @onready var flashlight = $flashlight
 @onready var flashlight_anchor = $flashlight_anchor
 
-const walk_speed : float = 3.5f
+const walk_speed : float = 3.5
 const sprint_speed : float = 6
 const accel : float = 0.2
 const gravity : float = -0.5

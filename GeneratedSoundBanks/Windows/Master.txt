@@ -1,0 +1,21 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1225797752	UI_Nav_Accept			\Default Work Unit\UI\UI_Nav_Accept	
+	2229151663	UI_Nav_Move			\Default Work Unit\UI\UI_Nav_Move	
+	2627419915	MUS_BasicLoop			\Default Work Unit\MUS\MUS_BasicLoop	
+	2960425256	AMB_BarrelFireLoop			\Default Work Unit\AMB\AMB_BarrelFireLoop	
+	3679789385	UI_Nav_Back			\Default Work Unit\UI\UI_Nav_Back	
+	3937375429	AMB_BirdLoop			\Default Work Unit\AMB\AMB_BirdLoop	
+	4137986015	UI_Nav_Tick			\Default Work Unit\UI\UI_Nav_Tick	
+
+Audio Bus	ID	Name			Wwise Object Path	Notes
+	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	134960705	MUS_music	E:\Personal\GitHub\WwiseExperiments-Godot-OvergrownSubwayDemo\WwiseProject\.cache\Windows\SFX\MUS_music_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\MUS_music\MUS_music		19814684
+	205352154	UI_Nav_Move	E:\Personal\GitHub\WwiseExperiments-Godot-OvergrownSubwayDemo\WwiseProject\.cache\Windows\SFX\UI_Nav_Move_1766C2E5.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI_Nav_Move		28704
+	268680894	UI_Nav_Back	E:\Personal\GitHub\WwiseExperiments-Godot-OvergrownSubwayDemo\WwiseProject\.cache\Windows\SFX\UI_Nav_Back_3AF8A843.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI_Nav_Back		96464
+	320147239	AMB_Barrel_Fire_Loop	E:\Personal\GitHub\WwiseExperiments-Godot-OvergrownSubwayDemo\WwiseProject\.cache\Windows\SFX\AMB_Barrel_Fire_Loop_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\AMB\AMB_Barrel_Fire_Loop		4910108
+	392674817	AMB_Bird_Loop	E:\Personal\GitHub\WwiseExperiments-Godot-OvergrownSubwayDemo\WwiseProject\.cache\Windows\SFX\AMB_Bird_Loop_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\AMB\AMB_Bird_Loop		31516700
+	451037186	UI_Nav_Accept	E:\Personal\GitHub\WwiseExperiments-Godot-OvergrownSubwayDemo\WwiseProject\.cache\Windows\SFX\UI_Nav_Accept_1A27E8AD.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI_Nav_Accept		62760
+	932369760	UI_Nav_Slider	E:\Personal\GitHub\WwiseExperiments-Godot-OvergrownSubwayDemo\WwiseProject\.cache\Windows\SFX\UI_Nav_Move_164A5181.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI_Nav_Slider		3092
+

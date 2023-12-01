@@ -3,10 +3,10 @@
 	<Project Name="WwiseProject" GUID="{E5F6ED70-45CF-4841-A25F-2C7F9ABC7798}" Generator="2022.1.6.8263"/>
 	<CacheRoot>../.cache</CacheRoot>
 	<Platforms>
-		<Platform Name="Windows" GUID="{FE9D7FFE-CE58-47E7-80D3-844D1061EF33}" BasePlatform="Windows" BasePlatformGUID="{6E0CB257-C6C8-4C5C-8366-2740DFC441EB}" Path="../../GeneratedSoundBanks"/>
+		<Platform Name="Windows" GUID="{FE9D7FFE-CE58-47E7-80D3-844D1061EF33}" BasePlatform="Windows" BasePlatformGUID="{6E0CB257-C6C8-4C5C-8366-2740DFC441EB}" Path="../../GeneratedSoundBanks/Windows"/>
 	</Platforms>
 	<Languages>
 		<Language Name="English(US)" Id="684519430" GUID="{2E3328C3-5DC0-4420-883E-81715D6FCE84}" Default="true" UseAsStandIn="true"/>
 	</Languages>
-	<FileHash>{4688283E-1411-91E7-ED4F-231A1A806324}</FileHash>
+	<FileHash>{C90B09FD-CE27-3F5A-49BD-855831878718}</FileHash>
 </ProjectInfo>
