@@ -18,6 +18,7 @@ config/icon="res://project_icon.png"
 [autoload]
 
 ControlSettings="*res://ControlSettings.gd"
+WwiseRuntimeManager="*res://addons/Wwise/runtime/wwise_runtime_manager.gd"
 
 [display]
 
@@ -28,7 +29,7 @@ window/stretch/aspect="ignore"
 
 [editor_plugins]
 
-enabled=PackedStringArray("res://addons/simplegrasstextured/plugin.cfg")
+enabled=PackedStringArray("res://addons/simplegrasstextured/plugin.cfg", "res://addons/Wwise/plugin.cfg")
 
 [importer_defaults]
 
