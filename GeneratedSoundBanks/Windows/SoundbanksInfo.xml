@@ -136,7 +136,7 @@
 				</AcousticTexture>
 			</AcousticTextures>
 		</SoundBank>
-		<SoundBank Id="4056684167" Type="User" Language="SFX" Hash="{101D65C1-C176-4051-BC95-BC50A8F2A7A7}">
+		<SoundBank Id="4056684167" Type="User" Language="SFX" Hash="{6A48504E-853A-D9F0-BA0D-EA8881CCF4FC}">
 			<ShortName>Master</ShortName>
 			<Path>Master.bnk</Path>
 			<Media>
@@ -154,11 +154,11 @@
 				</File>
 				<File Id="320147239" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>AMB_Barrel_Fire_Loop.wav</ShortName>
-					<CachePath>SFX/AMB_Barrel_Fire_Loop_10C4C929.wem</CachePath>
+					<CachePath>SFX/AMB_Barrel_Fire_Loop_D79FB2B7.wem</CachePath>
 				</File>
 				<File Id="392674817" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>AMB_Bird_Loop.wav</ShortName>
-					<CachePath>SFX/AMB_Bird_Loop_10C4C929.wem</CachePath>
+					<CachePath>SFX/AMB_Bird_Loop_D79FB2B7.wem</CachePath>
 				</File>
 				<File Id="451037186" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>UI_Nav_Accept.wav</ShortName>
@@ -211,5 +211,5 @@
 			</Busses>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{9CCB252B-3168-B003-245F-2E31B14B7202}</FileHash>
+	<FileHash>{4AE5CBB4-1AD4-880F-DFD3-5D384214C97D}</FileHash>
 </SoundBanksInfo>
