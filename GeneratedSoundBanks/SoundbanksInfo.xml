@@ -136,10 +136,31 @@
 				</AcousticTexture>
 			</AcousticTextures>
 		</SoundBank>
-		<SoundBank Id="4056684167" Type="User" Language="SFX" Hash="{73D2F82E-3C9A-353F-4F7A-B26E8573544B}">
+		<SoundBank Id="4056684167" Type="User" Language="SFX" Hash="{DB0C7616-35F9-E395-362A-E033D4CABEDD}">
 			<ShortName>Master</ShortName>
 			<Path>Master.bnk</Path>
+			<Media>
+				<File Id="205352154" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>UI_Nav_Move.wav</ShortName>
+					<CachePath>SFX/UI_Nav_Move_1766C2E5.wem</CachePath>
+				</File>
+				<File Id="268680894" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>UI_Nav_Back.wav</ShortName>
+					<CachePath>SFX/UI_Nav_Back_3AF8A843.wem</CachePath>
+				</File>
+				<File Id="451037186" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>UI_Nav_Accept.wav</ShortName>
+					<CachePath>SFX/UI_Nav_Accept_1A27E8AD.wem</CachePath>
+				</File>
+				<File Id="932369760" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>UI_Nav_Move.wav</ShortName>
+					<CachePath>SFX/UI_Nav_Move_8A85C757.wem</CachePath>
+				</File>
+			</Media>
+			<Busses>
+				<Bus Id="3803692087" Name="Master Audio Bus"/>
+			</Busses>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{CB154E03-532D-ACDB-10F7-4C3CA1F40FC4}</FileHash>
+	<FileHash>{12789D39-00F5-825A-A0B4-8C9DC3FB3677}</FileHash>
 </SoundBanksInfo>

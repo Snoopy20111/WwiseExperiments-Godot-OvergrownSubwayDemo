@@ -103,6 +103,56 @@
 						<ActiveSource Name="UI_Nav_Move" ID="{655A08EB-81F8-41EF-B73B-5F26BD4739DC}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
+				<Sound Name="UI_Nav_Slider" ID="{38C8F9E9-6439-4580-8475-00E27D3B0921}" ShortID="215298935">
+					<PropertyList>
+						<Property Name="Pitch" Type="int32">
+							<ValueList>
+								<Value>1010</Value>
+							</ValueList>
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{626D42CE-8F63-4ABB-9107-BF9BD4CE3E55}">
+										<PropertyList>
+											<Property Name="Max" Type="Real64" Value="25"/>
+											<Property Name="Min" Type="Real64" Value="-25"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-21</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A53C8BE0-C3D2-443C-BDA1-B049E6148AB7}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{40D0373F-DBFC-4805-928B-4FC904A523FC}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="UI_Nav_Move" ID="{DD27FB31-0FEB-4438-A779-8A273FBC03EF}">
+							<PropertyList>
+								<Property Name="FadeOutDuration" Type="Real64" Value="0.0141311724273915"/>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimBegin" Type="Real64" Value="0.00447093889716841"/>
+								<Property Name="TrimEnd" Type="Real64" Value="0.0200924242902827"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>UI_Nav_Move.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="932369760"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="UI_Nav_Move" ID="{DD27FB31-0FEB-4438-A779-8A273FBC03EF}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>
